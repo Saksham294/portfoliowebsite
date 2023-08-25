@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    list-style: none;
+    font-family: 'Montserrat';
+    margin-left: 50vw;
+  }
+  
+  .navBar>li {
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+ .navBar>li>a{
+  text-decoration: none;
+ }

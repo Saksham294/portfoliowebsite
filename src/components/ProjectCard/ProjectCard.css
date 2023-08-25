@@ -1,0 +1,70 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 2.5rem;
+    font-family: 'Lato';
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    margin-top: 1rem;
+    /* Ensure flex layout */
+    flex-direction: column;
+    /* Stack content vertically */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    /* Set a fixed height for images */
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .card-content {
+    padding: 15px;
+    flex: 1;
+    /* Expand content area to take available space */
+    display: flex;
+    /* Use flex to stack title, description, and link */
+    flex-direction: column;
+    justify-content: space-between;
+    /* Distribute space evenly */
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .github-link {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+    align-self: flex-end;
+    /* Align link to the right */
+  }
+  
+  .github-link:hover {
+    color: #0366d6;
+  }

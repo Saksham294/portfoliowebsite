@@ -1,0 +1,18 @@
+.mbtContainer {
+    margin-left: 4rem;
+    margin-top: 4rem;
+  
+  
+  }
+  
+  .mbtContainer>h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .mbtContainer>p {
+    font-size: 25px;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+  }

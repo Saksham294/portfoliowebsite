@@ -1,0 +1,19 @@
+.projectsBox {
+    text-align: center;
+  }
+  
+  .projectsBox>h2 {
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+  }
+
+  
+.inprojectBox>h2 {
+    margin-left: 16rem;
+    margin-bottom: 2rem;
+  }
+
+  .projectsContainer {
+    /* border: 2px solid black; */
+    width: 100%
+  }

@@ -1,0 +1,58 @@
+.techStack>h3 {
+    font-family: 'Montserrat' sans-serif;
+    margin-left: 38rem;
+  
+  
+  }
+  
+  .techStack {
+    margin-top: 2rem;
+  }
+
+
+.stackContainer {
+    display: flex;
+    margin-right: 10rem;
+  }
+
+
+.langsBox {
+    display: flex;
+  }
+
+  .languages {
+    display: flex;
+    margin-left: 8rem;
+  
+  }
+
+  .logo {
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+
+  .logo2 {
+
+    margin-left: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .current {
+  
+    margin-top: 5rem;
+  
+  }
+  
+  .current>h4 {
+  
+    display: inline-block;
+    margin-left: 37rem;
+  }
+  
+  .currentLearning {
+    color: #ffffff;
+    padding-left: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  

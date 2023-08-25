@@ -1,0 +1,43 @@
+.contact>p {
+    font-size: 25px;
+    padding: 3rem;
+    text-align: center;
+    font-family: 'Montserrat';
+  }
+  
+  .contact>h3 {
+    margin-left: 35rem;
+  }
+  
+  .icons {
+  
+    margin-left: 30rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .twticon:hover {
+    color: #00ACEE;
+    cursor: pointer;
+  }
+  
+  /*#0A66C2*/
+  
+  .linkedicon:hover {
+    color: #0A66C2;
+    cursor: pointer;
+  }
+  
+  .ghicon:hover {
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+  }
+
+  a {
+    color: inherit;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
