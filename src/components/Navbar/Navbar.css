@@ -19,3 +19,13 @@
  .navBar>li>a{
   text-decoration: none;
  }
+ @media screen and (max-width:768px) {
+  .navBar{
+    margin-left: 0vw;
+  }
+  .navBar>li {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-size: 3vw;
+  }
+ }

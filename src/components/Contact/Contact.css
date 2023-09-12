@@ -41,3 +41,12 @@
     text-decoration: none;
     color: inherit;
   }
+
+  @media screen and (max-width: 768px) {
+    .contact>h3{
+      margin-left: 19vw;
+    }
+    .icons {
+      margin-left: 6vw;
+    }
+  }

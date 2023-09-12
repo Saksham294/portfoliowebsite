@@ -1,18 +1,27 @@
 .mbtContainer {
-    margin-left: 4rem;
-    margin-top: 4rem;
-  
-  
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.mbtContainer>h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mbtContainer>p {
+  font-size: 25px;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+@media screen and (max-width: 768px) {
+  .mbtContainer {
+    margin-left: 0vw;
+
   }
-  
-  .mbtContainer>h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
+
   .mbtContainer>p {
-    font-size: 25px;
-    padding: 1rem;
-    text-align: center;
-    font-family: 'Montserrat';
+    margin-left: 0vw;
   }
+}

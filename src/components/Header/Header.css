@@ -1,35 +1,49 @@
 .element {
-    /* border: 2px solid red; */
-    height: 65vh;
-  
-  }
-  
-  .image {
-    /* border: 2px solid green; */
-    display: inline-block;
-    margin-left: 60vw;
-  }
-  
-  .profilePic {
-    width: 200px;
-  }
+  /* border: 2px solid red; */
+  height: 65vh;
+}
+
+.image {
+  /* border: 2px solid green; */
+  display: inline-block;
+  margin-left: 60vw;
+}
+
+.profilePic {
+  width: 200px;
+}
 
 .introFont {
-    font-size: 5rem;
-    font-family: 'Lato';
+  font-size: 5rem;
+  font-family: 'Lato';
+}
+
+.heading {
+  /* border: 2px solid black; */
+  width: 70%;
+  display: block;
+  margin-top: 10rem;
+  position: relative;
+  z-index: 3;
+}
+
+.heading>h2{
+  margin-left: 4rem;
+}
+
+.introHeading {
+  background: #FFD700;
+  background: linear-gradient(to right, #FFD700 100%, #3D59AB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 4rem;
+}
+
+@media screen and (max-width:768px){
+  .element{
+    height: 80vh;
   }
-  .heading {
-    /* border: 2px solid black; */
-    width: 70%;
-    display: block;
-    margin-top: 10rem;
-    position: relative;
-    z-index: 3;
+  .introFont{
+    font-size: 4.5rem;
   }
-  .introHeading{
-    background: #FFD700;
-    background: linear-gradient(to right, #FFD700 100%, #3D59AB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-left: 4rem;
-  }
+}

@@ -10,7 +10,7 @@ const Header = () => {
         <div className='element'>
            
             <div className='heading'>
-                <Typography sx={{ marginLeft: "5rem" }} fontSize={60}>Hi! I'm </Typography>
+                <Typography variant='h2' fontSize={60}>Hi! I'm </Typography>
                 <div className='introHeading' >
                     <div className='introFont'>
                         <Typewriter

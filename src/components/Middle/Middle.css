@@ -1,51 +1,67 @@
 .middleBox {
-    /* border:4px solid #ff0090; */
-    border-radius: 20px;
-    padding: 1rem;
-    display: inline-block;
-    margin-left: 20rem;
-    margin-top: 10rem;
-    width: 800px;
+  /* border:4px solid #ff0090; */
+  border-radius: 20px;
+  padding: 1rem;
+  display: inline-block;
+  margin-left: 20rem;
+  margin-top: 10rem;
+  width: 800px;
+}
+
+.middleBox>h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat';
+}
+
+.abtmeHeading {
+  margin-left: 18rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  overflow-y: hidden;
+}
+
+.abtmeContent {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 1.5rem;
+}
+
+.list {
+  margin-left: 15rem;
+  font-size: 1.5rem;
+}
+
+.list>ul {
+  margin-top: 1rem;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.list>ul>li {
+  padding: 1rem;
+  font-family: 'Lato';
+}
+
+.list>ul>li::before {
+  content: "\2022";
+  color: #e5ff00;
+  padding: 1rem;
+}
+
+@media screen and (max-width:768px) {
+  .middleBox {
+    margin-left: 0rem;
+    width: 100%;
   }
 
-  .middleBox>h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-family: 'Montserrat';
-  }
-  
   .abtmeHeading {
-    margin-left: 18rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    overflow-y: hidden;
+    margin-left: 0rem;
+    ;
   }
-  
-  .abtmeContent {
-    text-align: center;
-    font-family: 'Lato';
-    font-size: 1.5rem;
-  }
-  
+
   .list {
-    margin-left: 15rem;
-    font-size: 1.5rem;
+    margin-left: 8rem;
   }
-  
-  .list>ul {
-    margin-top: 1rem;
-    text-decoration: none;
-    list-style: none;
-  
-  }
-  
-  .list>ul>li {
-    padding: 1rem;
-    font-family: 'Lato';
-  }
-  
-  .list>ul>li::before {
-    content: "\2022";
-    color: #e5ff00;
-    padding: 1rem;
-  }
+}

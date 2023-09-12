@@ -1,58 +1,88 @@
 .techStack>h3 {
-    font-family: 'Montserrat' sans-serif;
-    margin-left: 38rem;
-  
-  
-  }
-  
-  .techStack {
-    margin-top: 2rem;
-  }
+  font-family: 'Montserrat' sans-serif;
+  margin-left: 38rem;
+}
 
+.techStack {
+  margin-top: 2rem;
+}
 
 .stackContainer {
-    display: flex;
-    margin-right: 10rem;
-  }
-
+  display: flex;
+  margin-right: 10rem;
+}
 
 .langsBox {
-    display: flex;
-  }
+  display: flex;
+}
 
-  .languages {
-    display: flex;
-    margin-left: 8rem;
+.languages {
+  display: flex;
+  margin-left: 8rem;
+}
+
+.logo {
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.logo2 {
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.current {
+  margin-top: 5rem;
+}
+
+.current>h4 {
+  display: inline-block;
+  margin-left: 37rem;
+}
+
+.currentLearning {
+  color: #ffffff;
+  padding-left: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width:768px) {
   
-  }
-
-  .logo {
-    margin-top: 5rem;
+  .techStack>h3{
+    font-family: 'Montserrat' sans-serif;
     margin-left: 10rem;
   }
 
-  .logo2 {
+  .stackContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 
-    margin-left: 3rem;
-    margin-top: 5rem;
+  .stackContainer .logo{
+    /* border: 2px solid red; */
+    width:7rem;
+    margin-left: 7rem;
   }
-  
-  .current {
-  
-    margin-top: 5rem;
-  
+  .langsBox{
+    display: flex;
+    margin-left: 0rem;
   }
-  
-  .current>h4 {
-  
-    display: inline-block;
-    margin-left: 37rem;
+
+  .languages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
   }
-  
-  .currentLearning {
-    color: #ffffff;
-    padding-left: 40rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+
+  .current>h4{
+    margin-left: 8rem;
   }
-  
+
+  .currentLearning{
+    margin-left: 0;
+    padding-left: 11rem;
+  }
+}

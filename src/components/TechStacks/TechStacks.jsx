@@ -1,9 +1,9 @@
 import { Typography } from '@mui/material'
 import React from 'react'
 import { DiReact, DiPython, DiJavascript1, DiHtml5, DiCss3 } from "react-icons/di"
-import { SiNextdotjs, SiMongodb, SiExpress,SiRedux,SiDocker,SiKubernetes } from 'react-icons/si'
-import { FaNodeJs, FaReact,FaJava } from 'react-icons/fa';
-import { SiSolidity  } from 'react-icons/si'
+import { SiNextdotjs, SiMongodb, SiExpress, SiRedux, SiDocker, SiKubernetes } from 'react-icons/si'
+import { FaNodeJs, FaReact, FaJava } from 'react-icons/fa';
+import { SiSolidity } from 'react-icons/si'
 import AOS from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css'
@@ -17,12 +17,10 @@ const TechStacks = () => {
     return (
         <div>
             <div className='techStack' data-aos="zoom-in-up"
-            
-            data-aos-offset="150"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            
+                data-aos-offset="150"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
             >
                 <Typography variant='h3'>Tech Stack</Typography>
                 <div className="stackContainer">
@@ -33,9 +31,8 @@ const TechStacks = () => {
                     <SiRedux className='logo' size={150} />
                 </div>
                 <div className="langsBox">
-
                     <div className="languages">
-<SiSolidity className='logo2' size={120} />
+                        <SiSolidity className='logo2' size={120} />
                         <DiPython className='logo2' size={150} />
                         <FaJava className='logo2' size={150} />
                         <DiJavascript1 className='logo2' size={150} />
@@ -50,7 +47,6 @@ const TechStacks = () => {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
