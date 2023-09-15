@@ -55,7 +55,6 @@ const Project = () => {
             <div data-aos="zoom-in-up" className="bigBox">
                 {arr.map((item, index) => (
                 <ProjectCard project={item} key={index}/>                    
-
                 )
                 )}
 

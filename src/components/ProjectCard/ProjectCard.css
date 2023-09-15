@@ -68,3 +68,10 @@
   .github-link:hover {
     color: #0366d6;
   }
+
+  @media screen and (max-width: 350px) {
+      .card{
+margin-left:2rem;
+        width: 250px;
+      }
+  }

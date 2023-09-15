@@ -6,22 +6,23 @@
   }
   
   .contact>h3 {
-    margin-left: 35rem;
+    margin-left: 37vw;
   }
   
   .icons {
-  
-    margin-left: 30rem;
+    text-align: center;
     margin-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .twticon{
+
   }
 
   .twticon:hover {
     color: #00ACEE;
     cursor: pointer;
   }
-  
-  /*#0A66C2*/
   
   .linkedicon:hover {
     color: #0A66C2;
@@ -44,9 +45,15 @@
 
   @media screen and (max-width: 768px) {
     .contact>h3{
-      margin-left: 19vw;
+      margin-left: 8vw;
+      font-size: 10vw;
+      text-align: center;
     }
     .icons {
-      margin-left: 6vw;
+      margin-left: 0vw;
     }
-  }
+    .twticon{
+      margin-left: 4rem;
+      font-size: 1rem;
+    }
+  } 

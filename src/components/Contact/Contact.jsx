@@ -14,9 +14,9 @@ const Contact = () => {
                 </p>
             </div>
             <div className="icons">
-                <a href='https://twitter.com/sakshams294'><TwitterIcon className='twticon' sx={{ fontSize: "3rem", marginLeft: "8rem" }} /></a>
-                <a href='https://www.linkedin.com/in/sakshamsingh5001/'><LinkedInIcon className='linkedicon' sx={{ fontSize: "3rem", marginLeft: "3rem" }} /></a>
-                <a href='https://github.com/Saksham294'><GitHubIcon className='ghicon' sx={{ fontSize: "3rem", marginLeft: "3rem" }} /></a>
+                <a href='https://twitter.com/sakshams294'><TwitterIcon className='twticon' sx={{ fontSize: "3rem" }} /></a>
+                <a href='https://www.linkedin.com/in/sakshamsingh5001/'><LinkedInIcon className='linkedicon' sx={{ fontSize: "3rem", marginLeft: "1rem" }} /></a>
+                <a href='https://github.com/Saksham294'><GitHubIcon className='ghicon' sx={{ fontSize: "3rem", marginLeft: "1rem" }} /></a>
             </div>
 
 

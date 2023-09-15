@@ -18,6 +18,23 @@
     /* border: 2px solid black; */
     width: 100%
   }
+  @media screen and (max-width:400px) {
+    .projectsBox>h2 {
+       margin-left: 0;
+       text-align: center;
+      }
+      .inprojectBox>h2 {
+        font-size: 2.5rem;
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+        margin-left: 0;
+        text-align: center;
+      }
+
+      .projectsContainer{
+        
+      }
+  }
   @media screen and (max-width: 768px) {
     .projectsBox>h2 {
     }
@@ -27,3 +44,5 @@
         margin-bottom: 0rem;
       }
   }
+
+  

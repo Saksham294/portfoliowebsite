@@ -50,7 +50,34 @@
   padding: 1rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:350px) {
+  .middleBox {
+    margin-top: 0;
+    margin-left: 0rem;
+    width: 100%;
+  }
+
+  .middleBox>h3{
+    font-size: 2.5rem;
+  }
+  .middleBox>h5{
+    font-size: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+
+  .abtmeHeading {
+    margin-left: 0rem;
+
+  }
+
+  .list {
+    margin-left: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width:351px)and (max-width:768px) {
   .middleBox {
     margin-left: 0rem;
     width: 100%;

@@ -39,11 +39,25 @@
   margin-left: 4rem;
 }
 
-@media screen and (max-width:768px){
+
+@media screen and (max-width:350px) {
+  .element {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  .heading>h2{
+    font-size: 2rem;
+  }
+  .introFont {
+    font-size:2rem;
+  }
+}
+@media screen and (min-width:351px)and (max-width:768px){
   .element{
-    height: 80vh;
+    height: 100vh;
+    width: 100%;
   }
   .introFont{
-    font-size: 4.5rem;
+    font-size: 3rem;
   }
 }

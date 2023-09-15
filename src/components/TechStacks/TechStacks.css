@@ -47,7 +47,46 @@
   margin-bottom: 5rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:350px) {
+  .techStack>h3{
+    font-family: 'Montserrat' sans-serif;
+    margin-left: 2.5rem;
+  }
+
+  .stackContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .stackContainer .logo{
+    /* border: 2px solid red; */
+    width:7rem;
+    margin-left: 7rem;
+  }
+  .langsBox{
+    display: flex;
+    margin-left: 0rem;
+  }
+
+  .languages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+  }
+
+  .current>h4{
+    margin-left: 6rem;
+  }
+
+  .currentLearning{
+    margin-left: 0;
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (min-width:351px) and (max-width:768px) {
   
   .techStack>h3{
     font-family: 'Montserrat' sans-serif;
