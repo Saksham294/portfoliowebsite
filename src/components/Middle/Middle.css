@@ -50,7 +50,7 @@
   padding: 1rem;
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
   .middleBox {
     margin-top: 0;
     margin-left: 0rem;
@@ -72,12 +72,12 @@
   }
 
   .list {
-    margin-left: 3rem;
+    margin-left: 4rem;
     font-size: 1rem;
   }
 }
 
-@media screen and (min-width:351px)and (max-width:768px) {
+@media screen and (min-width:401)and (max-width:768px) {
   .middleBox {
     margin-left: 0rem;
     width: 100%;
